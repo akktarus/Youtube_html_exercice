@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "customfont";
+  src: url(../ressources/font/roboto-thin-webfont.woff);
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: "customfont";
+}
+div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  color: rgb(241, 241, 234);
+}
+/* strucure de la page */
+/* Main-header+Footer */
+.main-header {
+  width: 18%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+  height: 10%;
+  flex-direction: column;
+  align-self: flex-end;
+}
+/* contenu */
+.main-body {
+  flex-direction: column-reverse;
+}
+.search-bar {
+  height: 10%;
+}
+.main-article {
+  flex-direction: column;
+}
+/* header */
+.header {
+  flex-direction: column;
+}
+.main-search-bar {
+  background-color: aquamarine;
+  width: 85vw;
+  height: 7%;
+}
+
+.button {
+  flex-direction: row;
+  align-content: center;
+  margin: 5px;
+  border: 1px none;
+  border-radius: 5px;
+  background-color: rgb(61, 61, 61);
+  width: auto;
+}
+.button-image {
+  width: auto;
+}
+.button-image img,
+.button-image i {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+.button-text {
+  align-content: left;
+  font-size: 10px;
+}
+.button-section {
+  flex-direction: column;
+}
+.separation {
+  height: auto;
+  width: auto;
+  border: 1px black solid;
+  background-color: rgb(65, 65, 65);
+  margin: 10px;
+}
+/* Footer */
+.footer-section {
+  height: fit-content;
+}
+.footer-text {
+  height: fit-content;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 80);
+  font-size: 10px;
+  margin: 0;
+}
+.footer-text a {
+  margin: 3px;
+  text-decoration: none;
+  color: rgba(128, 128, 128, 100);
+  font-size: 10px;
+}
+.footer-copyright {
+  height: fit-content;
+  color: rgba(128, 128, 128, 90);
+  font-size: 10px;
+}
+/* Barre bouton au dessus des vidéos */
+
+.main-search-bar {
+  flex-direction: row;
+}
+.button-search-text {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  margin: 10px;
+  align-self: center;
+  background-color: rgb(63, 63, 63);
+}
+.button-search-text span {
+  align-content: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.next-button {
+    justify-self: center;
+    border: 1px none;
+    border-radius: 200%;
+    background-color: rgb(63, 63, 63);
+    width:50%;
+}
+.next-button span{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+/* Main content videos */
+.main-article{
+    height: 100%;
+    width: 100%;
+}
+.main-article-video{
+    height: 46%;
+    width: 25%;
+}
+.main-videos{
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.main-video {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+}
+.video-image{
+    height: 50%;
+}
+.video-image img {
+  width: 100%;
+  height:100%
+  ;
+  border-radius: 20px;
+}
+.video-description {
+  flex-direction: row;
+  height: 50%;
+}
+.video-channel-logo {
+  width: fit-content;
+}
+.video-channel-logo img {
+  border-radius: 200%;
+  height: 30%;
+  margin: 10px;
+}
+.video-text {
+  flex-direction: column;
+  text-align: left;
+  margin: 10px;
+  height: fit-content;
+}
+.video-title {
+  height: fit-content;
+  margin-bottom: 10px;
+}
+.video-text span {
+    text;
+  font-size: 12px;
+  white-space: normal;
+}
+.video-channel {
+  height: fit-content;
+}
+.video-channel-stat {
+  flex-direction: row;
+  height: fit-content;
+}
+.video-channel,
+.video-channel-stat span {
+    margin-bottom: 2px;
+  color: rgb(209, 209, 209);
+  font-size: 10px;
+}
+.search-bar{
+    justify-content: space-between;
+}
+.reduce-bars{
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 30%;
+    border: 1px none white;
+    border-radius: 200%;
+    
+}
+.logo-main{
+    flex-direction: row;
+}
+.logo-country{
+    margin: 10px;
+    font-size: 10px;
+    width: fit-content;
+}
+.search-bar-main{
+    width: 40%;
+    align-self: center;
+    margin-left: 40px;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: rgb(18, 18, 18);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
