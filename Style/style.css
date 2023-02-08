@@ -192,7 +192,6 @@ div {
   margin-bottom: 10px;
 }
 .video-text span {
-    text;
   font-size: 12px;
   white-space: normal;
 }
@@ -209,6 +208,7 @@ div {
   color: rgb(209, 209, 209);
   font-size: 10px;
 }
+/* search-bar */
 .search-bar{
     justify-content: space-between;
 }
@@ -229,19 +229,61 @@ div {
     font-size: 10px;
     width: fit-content;
 }
-.search-bar-main{
-    width: 40%;
-    align-self: center;
-    margin-left: 40px;
+.search-bar-middle{
+    width: fit-content;
 }
+.search-bar-button{
+    width: fit-content;
+}
+.search-bar-main{
+    width: 500%;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
 input[type=text] {
     width: 100%;
     box-sizing: border-box;
     border: 2px solid rgb(34, 34, 34);
     border-radius: 25px;
     font-size: 16px;
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(34, 34, 34);
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
+    color: white;
   }
+.search-bar-button button,.search-bar-micro button{
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 25px;
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    height: fit-content;
+    color: white;
+}
+.search-button-right button{
+    margin-top: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 25px;
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    height: fit-content;
+    color: white;
+}
+.personal-button button{
+    margin-top: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 300%;
+    background-color: rgb(34, 34, 34);
+    padding: 15px;
+    height: fit-content;
+    color: white;
+    justify-content: flex-end;
+}
+.personal-button img{
+    border-radius: 200%;
+}
+.personal-button{
+    width: fit-content;
+}
